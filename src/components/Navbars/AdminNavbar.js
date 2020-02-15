@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Form,
-  FormGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-  InputGroup,
+  // Form,
+  // FormGroup,
+  // InputGroupAddon,
+  // InputGroupText,
+  // Input,
+  // InputGroup,
   Navbar,
   Container
 } from "reactstrap";
@@ -24,7 +24,7 @@ class AdminNavbar extends React.Component {
             >
               {this.props.brandText}
             </Link>
-            <Form className="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+            {/* <Form className="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
               <FormGroup className="mb-0">
                 <InputGroup className="input-group-alternative">
                   <InputGroupAddon addonType="prepend">
@@ -35,7 +35,7 @@ class AdminNavbar extends React.Component {
                   <Input placeholder="Search" type="text" />
                 </InputGroup>
               </FormGroup>
-            </Form>
+            </Form> */}
           </Container>
         </Navbar>
       </>

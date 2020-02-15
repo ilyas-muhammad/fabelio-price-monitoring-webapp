@@ -3,16 +3,17 @@ import Index from "views/Index.js";
 // import Maps from "views/examples/Maps.js";
 // import Register from "views/examples/Register.js";
 // import Login from "views/examples/Login.js";
-import Tables from "views/examples/Tables.js";
+// import Tables from "views/examples/Tables.js";
+import Product from 'views/examples/product/Products';
 // import Icons from "views/examples/Icons.js";
 
-var routes = [
+const routes = [
   {
     path: "/index",
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
     component: Index,
-    layout: "/admin"
+    layout: ""
   },
   // {
   //   path: "/icons",
@@ -36,11 +37,11 @@ var routes = [
   //   layout: "/admin"
   // },
   {
-    path: "/tables",
+    path: "/product",
     name: "Product",
     icon: "ni ni-shop text-blue",
-    component: Tables,
-    layout: "/admin"
+    component: Product,
+    layout: ""
   }
 ];
 export default routes;
